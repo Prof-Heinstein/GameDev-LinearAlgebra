@@ -80,8 +80,7 @@ $$ \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + ... + u_nv_n.$$
 Example:
 The dot product of 
 
-$$\vec{u} = \begin{bmatrix}1 \\\ 2 \end{bmatrix}$$
-$$and$$ 
+$$\vec{u} = \begin{bmatrix}1 \\\ 2 \end{bmatrix} \\ and \\ $$
 $$\vec{v} = \begin{bmatrix}3 \\\ -2 \end{bmatrix}:$$
 $$ \vec{u} \cdot \vec{v} = (1)(3) + (2)(-2)$$
 $$ = 3 - 4 = -1.$$
