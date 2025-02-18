@@ -27,6 +27,7 @@ $$\vec{v} = \begin{bmatrix}1 \\ 3 \\ \end{bmatrix}$$
 $$\lVert \vec{v}\rVert = \sqrt{\smash[b]{v_1^2 + v_2^2 + ... + v_n^2}}$$
 
 Example:
+
 $$\lVert \vec{v}\rVert = \sqrt{\smash[b]{(1)^2 + (3)^2}}$$
 $$=\sqrt{1 + 9}$$
 $$=\sqrt{10}$$
@@ -36,16 +37,17 @@ Exercise 1:
 
 a) Find the norm of the vector 
 
-$\vec{x} = \begin{bmatrix}-2 \\ \sqrt{5}\end{bmatrix}$.
+$$\vec{x} = \begin{bmatrix}-2 \\ \sqrt{5}\end{bmatrix}.$$
 
 b) Find the norm of the vector 
 
-$\vec{j} = \begin{bmatrix}0 \\ 1 \end{bmatrix}$.
+$$\vec{j} = \begin{bmatrix}0 \\ 1 \end{bmatrix}.$$
 
 ## Distance between two vectors:
 
 $$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2 + ... + (v_n - w_n)^2}$$
 $$=\lVert \vec{v} - \vec{w} \rVert$$
+
 This is actually identical to the formula for the distance between two points, as the vectors can be represented by the point where the tip of the vector sits.
 
 An observant reader would also notice that the length of a vector is simply the distance between that vector's tip and the origin. Therefore, the formula under the previous heading is really only a special application of the one given here.
@@ -67,19 +69,20 @@ $$ \vec{q} = \begin{bmatrix}3 \\ -1 \\ 0 \\ -3 \end{bmatrix}, \vec{r} = \begin{b
 
 Bonus) Try verifying the following:
 
-$$d(\vec{v},\vec{w}) = d(\vec{w},\vec{v})$$.
+$$d(\vec{v},\vec{w}) = d(\vec{w},\vec{v}).$$
 
 ## Dot Product between two vectors
 The dot product of two vectors is a scalar quantity.
 $$ \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + ... + u_nv_n.$$
 
 Example:
-The dot product of $\vec{u} = \begin{bmatrix}1 \\ 2 \end{bmatrix}$ and $\vec{v} = \begin{bmatrix}3 \\ -2 \end{bmatrix}$:
+The dot product of 
+$$\vec{u} = \begin{bmatrix}1 \\ 2 \end{bmatrix}$ and $\vec{v} = \begin{bmatrix}3 \\ -2 \end{bmatrix}:$$
 $$ \vec{u} \cdot \vec{v} = (1)(3) + (2)(-2)$$
 $$ = 3 - 4 = -1.$$
 
 Exercise 3:
-Let $\vec{u} = \begin{bmatrix}2 \\-2 \end{bmatrix}$, $\vec{v} = \begin{bmatrix}5 \\ 8 \end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-4 \\3 \end{bmatrix}$
+$$Let \vec{u} = \begin{bmatrix}2 \\-2 \end{bmatrix}$, $\vec{v} = \begin{bmatrix}5 \\ 8 \end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-4 \\3 \end{bmatrix}$$
 
 a) Find 
 $\vec{u} \cdot \vec{v}$.
