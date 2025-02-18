@@ -129,11 +129,11 @@ $$5)\ \vec{v} \cdot \vec{v} \ge 0,\ and \ \vec{v} \cdot \vec{v} = 0 \ if \ and \
 ## Exercise Solutions:
 ### Exercise 1:
 
-a) $\lVert \vec{x} \rVert = \sqrt{(-2)^2 + (\sqrt{5})^2} = \sqrt{4 + 5} = \sqrt{9} = 3\ units$. 
+$$a) \lVert \vec{x} \rVert = \sqrt{(-2)^2 + (\sqrt{5})^2} = \sqrt{4 + 5} = \sqrt{9} = 3\ units.$$ 
 
 NOTE: Length is always positive.
 
-b) $\lVert \vec{j} \rVert = \sqrt{(0)^2 + (1)^2} = \sqrt{1} = 1\ unit$.
+$$b) \lVert \vec{j} \rVert = \sqrt{(0)^2 + (1)^2} = \sqrt{1} = 1\ unit.$$
 
 NOTE: This vector is actually $\hat{j}$, a unit vector that's also one of the basis vectors in $R^2$.
 
