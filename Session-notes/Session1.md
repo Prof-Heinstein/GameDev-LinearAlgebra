@@ -65,7 +65,9 @@ b) Determine the distance between the following two vectors:
 
 $$ \vec{q} = \begin{bmatrix}3 \\ -1 \\ 0 \\ -3 \end{bmatrix}, \vec{r} = \begin{bmatrix}4 \\ 0 \\ 1 \\ 2 \end{bmatrix}.$$
 
-Bonus) Try verifying that $d(\vec{v},\vec{w}) = d(\vec{w},\vec{v})$.
+Bonus) Try verifying the following:
+
+$$d(\vec{v},\vec{w}) = d(\vec{w},\vec{v})$$.
 
 ## Dot Product between two vectors
 The dot product of two vectors is a scalar quantity.
