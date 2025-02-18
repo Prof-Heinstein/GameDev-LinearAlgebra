@@ -88,7 +88,7 @@ $$ = 3 - 4 = -1.$$
 
 Exercise 3:
 
-$$Let \vec{u} = \begin{bmatrix}2 \\\ -2 \end{bmatrix}, \vec{v} = \begin{bmatrix}5 \\\ 8 \end{bmatrix} and \vec{w} = \begin{bmatrix}-4 \\\ 3 \end{bmatrix}$$
+$$Let \\ \vec{u} = \begin{bmatrix}2 \\\ -2 \end{bmatrix}, \\ \vec{v} = \begin{bmatrix}5 \\\ 8 \end{bmatrix} \\ and \\ \vec{w} = \begin{bmatrix}-4 \\\ 3 \end{bmatrix}$$
 
 a) Find 
 $\vec{u} \cdot \vec{v}$.
