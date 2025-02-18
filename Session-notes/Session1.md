@@ -26,14 +26,14 @@ $$\vec{v} = \begin{bmatrix}1 \\\ 3 \\\ \end{bmatrix}$$
 
 $$\lVert \vec{v}\rVert = \sqrt{\smash[b]{v_1^2 + v_2^2 + ... + v_n^2}}$$
 
-Example:
+### Example:
 
 $$\lVert \vec{v}\rVert = \sqrt{\smash[b]{(1)^2 + (3)^2}}$$
 $$=\sqrt{1 + 9}$$
 $$=\sqrt{10}$$
 $$=3.16227766... \ units$$
 
-Exercise 1:
+### Exercise 1:
 
 a) Find the norm of the vector 
 
@@ -52,13 +52,13 @@ This is actually identical to the formula for the distance between two points, a
 
 An observant reader would also notice that the length of a vector is simply the distance between that vector's tip and the origin. Therefore, the formula under the previous heading is really only a special application of the one given here.
 
-Example:
+### Example:
 
 $$\vec{v} = \begin{bmatrix}1 \\\ 4\end{bmatrix}, \vec{w} = \begin{bmatrix}-3 \\\ 1 \end{bmatrix}$$
 $$d(\vec{v},\vec{w}) = \sqrt{(1 - (-3))^2 + (4 - 1)^2}$$
 $$=\sqrt{16 + 9} = \sqrt{25} = 5\ units.$$
 
-Exercise 2:
+### Exercise 2:
 
 a) Determine the distance between the following two vectors:
 
@@ -77,14 +77,14 @@ The dot product of two vectors is a scalar quantity.
 
 $$ \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + ... + u_nv_n.$$
 
-Example:
+### Example:
 The dot product of 
 
 $$\vec{u} = \begin{bmatrix}1 \\\ 2 \end{bmatrix} \\ and \\ \vec{v} = \begin{bmatrix}3 \\\ -2 \end{bmatrix}:$$
 $$ \vec{u} \cdot \vec{v} = (1)(3) + (2)(-2)$$
 $$ = 3 - 4 = -1.$$
 
-Exercise 3:
+### Exercise 3:
 
 $$Let \\ \vec{u} = \begin{bmatrix}2 \\\ -2 \end{bmatrix}, \\ \vec{v} = \begin{bmatrix}5 \\\ 8 \end{bmatrix} \\ and \\ \vec{w} = \begin{bmatrix}-4 \\\ 3 \end{bmatrix}$$
 
