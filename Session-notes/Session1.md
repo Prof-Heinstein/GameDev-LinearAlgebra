@@ -23,9 +23,11 @@ The list of numbers coincide with the Computer Science view of vectors.
 $$\vec{v} = \begin{bmatrix}1 \\ 3 \\ \end{bmatrix}$$
 
 ## Length / Magnitude / Norm of a vector:
+
 $$\lVert \vec{v}\rVert = \sqrt{\smash[b]{v_1^2 + v_2^2 + ... + v_n^2}}$$
 
 Example:
+
 $$\lVert \vec{v}\rVert = \sqrt{\smash[b]{(1)^2 + (3)^2}}$$
 $$=\sqrt{1 + 9}$$
 $$=\sqrt{10}$$
@@ -34,12 +36,15 @@ $$=3.16227766... \ units$$
 Exercise 1:
 
 a) Find the norm of the vector 
+
 $\vec{x} = \begin{bmatrix}-2 \\ \sqrt{5}\end{bmatrix}$.
 
 b) Find the norm of the vector 
+
 $\vec{j} = \begin{bmatrix}0 \\ 1 \end{bmatrix}$.
 
 ## Distance between two vectors:
+
 $$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2 + ... + (v_n - w_n)^2}$$
 $$=\lVert \vec{v} - \vec{w} \rVert$$
 This is actually identical to the formula for the distance between two points, as the vectors can be represented by the point where the tip of the vector sits.
