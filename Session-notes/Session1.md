@@ -54,7 +54,7 @@ An observant reader would also notice that the length of a vector is simply the 
 
 Example:
 
-$$\vec{v} = \begin{bmatrix}1 \\ 4\end{bmatrix}, \vec{w} = \begin{bmatrix}-3 \\ 1 \end{bmatrix}$$
+$$\vec{v} = \begin{bmatrix}1 \\\ 4\end{bmatrix}, \vec{w} = \begin{bmatrix}-3 \\\ 1 \end{bmatrix}$$
 $$d(\vec{v},\vec{w}) = \sqrt{(1 - (-3))^2 + (4 - 1)^2}$$
 $$=\sqrt{16 + 9} = \sqrt{25} = 5\ units.$$
 
@@ -62,7 +62,7 @@ Exercise 2:
 
 a) Determine the distance between the following two vectors:
 
-$$ \vec{h} = \begin{bmatrix}-1 \\ -4 \end{bmatrix}, \vec{i} = \begin{bmatrix}2 \\ 3 \end{bmatrix}.$$
+$$ \vec{h} = \begin{bmatrix}-1 \\\ -4 \end{bmatrix}, \vec{i} = \begin{bmatrix}2 \\\ 3 \end{bmatrix}.$$
 
 b) Determine the distance between the following two vectors:
 
@@ -159,8 +159,7 @@ a) $\vec{u} \cdot \vec{v} = 2(5) + (-2)(8) = -6$.
 
 b) $From (a), \vec{u} \cdot \vec{v} = -6, so \\(\vec{u} \cdot \vec{v})\vec{w} = (-6) \vec{w}\\ = \begin{bmatrix}(-6)(4) \\\ (-6)(3) \end{bmatrix}\\= \begin{bmatrix}24 \\\ -18 \end{bmatrix}.$
 
-c) $\vec{w} \cdot \vec{w} = (-4)^2 + (3)^2 = 16 + 9 = 25.\\
-\lVert \vec{w} \rVert^2 = (\sqrt{(-4)^2 + (3)^2})^2 = (\sqrt{16 + 9})^2 = (\sqrt{25})^2 = 25.$
+c) $\vec{w} \cdot \vec{w} = (-4)^2 + (3)^2 = 16 + 9 = 25. \lVert \vec{w} \rVert^2 = (\sqrt{(-4)^2 + (3)^2})^2 = (\sqrt{16 + 9})^2 = (\sqrt{25})^2 = 25.$
 
 NOTE: This result makes sense if you think about the geometric representation of the dot product. Projecting a vector onto itself gives its own length and multiplying by the length of the vector being projected onto simply squares the length. There are other intuitive understandings of this property as well, such as using the Pythagorean Theorem.
 
