@@ -148,10 +148,9 @@ b) $d(\vec{q},\vec{r}) = \sqrt{(3 - 4)^2 + (-1 - 0)^2 + (0 - 1)^2 + (-3 - 2)^2}\
 Bonus) This can be verified by picking any two vectors and performing the calculations.
 As for one general proof of it:
 
-$$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2}\\ = \sqrt{(v_1^2 - 2v_1w_1 + w_1^2) + (v_2^2 - 2v_2w_2 + w_2^2)} = LHS.\\$$
+$$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2}\\ = \sqrt{(v_1^2 - 2v_1w_1 + w_1^2) + (v_2^2 - 2v_2w_2 + w_2^2)} = LHS.$$
 
-Let $RHS = d(\vec{w},\vec{v}) = \sqrt{(w_1 - v_1)^2 + (w_2 - v_2)^2}\\ = \sqrt{(w_1^2 - 2v_1w_1 + v_1^2) + (w_2^2 - 2v_2w_2 + v_2^2)}\\ = LHS.\\
-\blacksquare$
+Let $RHS = d(\vec{w},\vec{v}) = \sqrt{(w_1 - v_1)^2 + (w_2 - v_2)^2}\\\ = \sqrt{(w_1^2 - 2v_1w_1 + v_1^2) + (w_2^2 - 2v_2w_2 + v_2^2)}\\\ = LHS. \blacksquare$
 
 ### Exercise 3:
 
