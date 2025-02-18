@@ -20,11 +20,11 @@ A vector can be decomposed into vertically listed coordinates along which to mov
 
 The list of numbers coincide with the Computer Science view of vectors.
 
-$$\vec{v} = \begin{bmatrix}1 \\ 3 \\ \end{bmatrix}$$
+$\vec{v} = \begin{bmatrix}1 \\ 3 \\ \end{bmatrix}$
 
 ## Length / Magnitude / Norm of a vector:
 
-$$\lVert \vec{v}\rVert = \sqrt{\smash[b]{v_1^2 + v_2^2 + ... + v_n^2}}$$
+$\lVert \vec{v}\rVert = \sqrt{\smash[b]{v_1^2 + v_2^2 + ... + v_n^2}}$
 
 Example:
 
