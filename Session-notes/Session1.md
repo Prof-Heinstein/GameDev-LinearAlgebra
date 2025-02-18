@@ -33,9 +33,11 @@ $$=3.16227766... \ units$$
 
 Exercise 1:
 
-a) Find the norm of the vector $\vec{x} = \begin{bmatrix}-2 \\ \sqrt{5}\end{bmatrix}$.
+a) Find the norm of the vector 
+$\vec{x} = \begin{bmatrix}-2 \\ \sqrt{5}\end{bmatrix}$.
 
-b) Find the norm of the vector $\vec{j} = \begin{bmatrix}0 \\ 1 \end{bmatrix}$.
+b) Find the norm of the vector 
+$\vec{j} = \begin{bmatrix}0 \\ 1 \end{bmatrix}$.
 
 ## Distance between two vectors:
 $$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2 + ... + (v_n - w_n)^2}$$
@@ -52,9 +54,11 @@ $$=\sqrt{16 + 9} = \sqrt{25} = 5\ units.$$
 Exercise 2:
 
 a) Determine the distance between the following two vectors:
+
 $$ \vec{h} = \begin{bmatrix}-1 \\ -4 \end{bmatrix}, \vec{i} = \begin{bmatrix}2 \\ 3 \end{bmatrix}.$$
 
 b) Determine the distance between the following two vectors:
+
 $$ \vec{q} = \begin{bmatrix}3 \\ -1 \\ 0 \\ -3 \end{bmatrix}, \vec{r} = \begin{bmatrix}4 \\ 0 \\ 1 \\ 2 \end{bmatrix}.$$
 
 Bonus) Try verifying that $d(\vec{v},\vec{w}) = d(\vec{w},\vec{v})$.
@@ -71,11 +75,14 @@ $$ = 3 - 4 = -1.$$
 Exercise 3:
 Let $\vec{u} = \begin{bmatrix}2 \\-2 \end{bmatrix}$, $\vec{v} = \begin{bmatrix}5 \\ 8 \end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-4 \\3 \end{bmatrix}$
 
-a) Find $\vec{u} \cdot \vec{v}$.
+a) Find 
+$\vec{u} \cdot \vec{v}$.
 
-b) Find $(\vec{u} \cdot \vec{v})\vec{w}$.
+b) Find 
+$(\vec{u} \cdot \vec{v})\vec{w}$.
 
-c) Find $\vec{w} \cdot \vec{w}$ and compare the result with $\lVert \vec{w} \rVert^2$.
+c) Find 
+$\vec{w} \cdot \vec{w}$ and compare the result with $\lVert \vec{w} \rVert^2$.
 
 
 For a graphical representation of the dot product between two vectors, imagine projecting the first vector onto the second vector and then scaling the projection by the length of the second vector.  
