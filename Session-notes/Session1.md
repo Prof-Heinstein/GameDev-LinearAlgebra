@@ -80,9 +80,9 @@ $$ \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + ... + u_nv_n.$$
 Example:
 The dot product of 
 
-$$\vec{u} = \begin{bmatrix}1 \\ 2 \end{bmatrix}$$
+$$\vec{u} = \begin{bmatrix}1 \\\ 2 \end{bmatrix}$$
 $$and$$ 
-$$\vec{v} = \begin{bmatrix}3 \\ -2 \end{bmatrix}:$$
+$$\vec{v} = \begin{bmatrix}3 \\\ -2 \end{bmatrix}:$$
 $$ \vec{u} \cdot \vec{v} = (1)(3) + (2)(-2)$$
 $$ = 3 - 4 = -1.$$
 
@@ -141,16 +141,16 @@ NOTE: This vector is actually $\hat{j}$, a unit vector that's also one of the ba
 
 ### Exercise 2:
 
-a) $d(\vec{h},\vec{i}) = \sqrt{(-1 - 2)^2 + (-4 - 3)^2}\\ = \sqrt{(-3)^2 + (-7)^2}\\ = \sqrt{9 + 49}\\ = \sqrt{58}\ units$.
+a) $d(\vec{h},\vec{i}) = \sqrt{(-1 - 2)^2 + (-4 - 3)^2}\\ = \sqrt{(-3)^2 + (-7)^2} \\\ = \sqrt{9 + 49}\\ = \sqrt{58}\ units$.
 
-b) $d(\vec{q},\vec{r}) = \sqrt{(3 - 4)^2 + (-1 - 0)^2 + (0 - 1)^2 + (-3 - 2)^2}\\ = \sqrt{(-1)^2 + (-1)^2 + (-1)^2 + (-5)^2}\\ = \sqrt{28}\\ = 2\sqrt{7}\ units$.
+b) $d(\vec{q},\vec{r}) = \sqrt{(3 - 4)^2 + (-1 - 0)^2 + (0 - 1)^2 + (-3 - 2)^2} \\\ = \sqrt{(-1)^2 + (-1)^2 + (-1)^2 + (-5)^2}\\ = \sqrt{28}\\ = 2\sqrt{7}\ units$.
 
 Bonus) This can be verified by picking any two vectors and performing the calculations.
 As for one general proof of it:
 
-$$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2}\\ = \sqrt{(v_1^2 - 2v_1w_1 + w_1^2) + (v_2^2 - 2v_2w_2 + w_2^2)} = LHS.$$
+$$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2} \\\ = \sqrt{(v_1^2 - 2v_1w_1 + w_1^2) + (v_2^2 - 2v_2w_2 + w_2^2)} = LHS.$$
 
-$Let RHS = d(\vec{w},\vec{v}) = \sqrt{(w_1 - v_1)^2 + (w_2 - v_2)^2} \\\ = \sqrt{(w_1^2 - 2v_1w_1 + v_1^2) + (w_2^2 - 2v_2w_2 + v_2^2)} \\\ = LHS. \blacksquare$
+$$Let RHS = d(\vec{w},\vec{v}) = \sqrt{(w_1 - v_1)^2 + (w_2 - v_2)^2} \\\ = \sqrt{(w_1^2 - 2v_1w_1 + v_1^2) + (w_2^2 - 2v_2w_2 + v_2^2)} \\\ = LHS. \blacksquare$$
 
 ### Exercise 3:
 
