@@ -150,13 +150,13 @@ As for one general proof of it:
 
 $$d(\vec{v},\vec{w}) = \sqrt{(v_1 - w_1)^2 + (v_2 - w_2)^2}\\ = \sqrt{(v_1^2 - 2v_1w_1 + w_1^2) + (v_2^2 - 2v_2w_2 + w_2^2)} = LHS.$$
 
-$Let RHS = d(\vec{w},\vec{v}) = \sqrt{(w_1 - v_1)^2 + (w_2 - v_2)^2}\\\ = \sqrt{(w_1^2 - 2v_1w_1 + v_1^2) + (w_2^2 - 2v_2w_2 + v_2^2)}\\\ = LHS. \blacksquare$
+$Let RHS = d(\vec{w},\vec{v}) = \sqrt{(w_1 - v_1)^2 + (w_2 - v_2)^2} \\\ = \sqrt{(w_1^2 - 2v_1w_1 + v_1^2) + (w_2^2 - 2v_2w_2 + v_2^2)} \\\ = LHS. \blacksquare$
 
 ### Exercise 3:
 
 $$a) \vec{u} \cdot \vec{v} = 2(5) + (-2)(8) = -6.$$
 
-$$b) From (a), \vec{u} \cdot \vec{v} = -6, so \\\(\vec{u} \cdot \vec{v})\vec{w} = (-6) \vec{w}\\\ = \begin{bmatrix}(-6)(4) \\\ (-6)(3) \end{bmatrix}\\\= \begin{bmatrix}24 \\\ -18 \end{bmatrix}.$$
+$$b) From (a), \vec{u} \cdot \vec{v} = -6, so \\\ (\vec{u} \cdot \vec{v})\vec{w} = (-6) \vec{w} \\\ = \begin{bmatrix}(-6)(4) \\\ (-6)(3) \end{bmatrix}\\\= \begin{bmatrix}24 \\\ -18 \end{bmatrix}.$$
 
 $$c) \vec{w} \cdot \vec{w} = (-4)^2 + (3)^2 = 16 + 9 = 25. \lVert \vec{w} \rVert^2 = (\sqrt{(-4)^2 + (3)^2})^2 = (\sqrt{16 + 9})^2 = (\sqrt{25})^2 = 25.$$
 
