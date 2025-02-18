@@ -37,11 +37,11 @@ Exercise 1:
 
 a) Find the norm of the vector 
 
-$$\vec{x} = \begin{bmatrix}-2 \\ \sqrt{5}\end{bmatrix}.$$
+$$\vec{x} = \begin{bmatrix}-2 \\\ \sqrt{5}\end{bmatrix}.$$
 
 b) Find the norm of the vector 
 
-$$\vec{j} = \begin{bmatrix}0 \\ 1 \end{bmatrix}.$$
+$$\vec{j} = \begin{bmatrix}0 \\\ 1 \end{bmatrix}.$$
 
 ## Distance between two vectors:
 
@@ -66,7 +66,7 @@ $$ \vec{h} = \begin{bmatrix}-1 \\ -4 \end{bmatrix}, \vec{i} = \begin{bmatrix}2 \
 
 b) Determine the distance between the following two vectors:
 
-$$ \vec{q} = \begin{bmatrix}3 \\ -1 \\ 0 \\ -3 \end{bmatrix}, \vec{r} = \begin{bmatrix}4 \\ 0 \\ 1 \\ 2 \end{bmatrix}.$$
+$$ \vec{q} = \begin{bmatrix}3 \\\ -1 \\\ 0 \\\ -3 \end{bmatrix}, \vec{r} = \begin{bmatrix}4 \\\ 0 \\\ 1 \\\ 2 \end{bmatrix}.$$
 
 Bonus) Try verifying the following:
 
@@ -80,13 +80,15 @@ $$ \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + ... + u_nv_n.$$
 Example:
 The dot product of 
 
-$$\vec{u} = \begin{bmatrix}1 \\ 2 \end{bmatrix}$ and $\vec{v} = \begin{bmatrix}3 \\ -2 \end{bmatrix}:$$
+$$\vec{u} = \begin{bmatrix}1 \\ 2 \end{bmatrix}$$
+and 
+$$\vec{v} = \begin{bmatrix}3 \\ -2 \end{bmatrix}:$$
 $$ \vec{u} \cdot \vec{v} = (1)(3) + (2)(-2)$$
 $$ = 3 - 4 = -1.$$
 
 Exercise 3:
 
-$$Let \vec{u} = \begin{bmatrix}2 \\-2 \end{bmatrix}$, $\vec{v} = \begin{bmatrix}5 \\ 8 \end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-4 \\3 \end{bmatrix}$$
+$$Let \vec{u} = \begin{bmatrix}2 \\\-2 \end{bmatrix}$, $\vec{v} = \begin{bmatrix}5 \\\ 8 \end{bmatrix}$ and $\vec{w} = \begin{bmatrix}-4 \\\3 \end{bmatrix}$$
 
 a) Find 
 $\vec{u} \cdot \vec{v}$.
