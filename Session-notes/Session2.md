@@ -79,7 +79,7 @@ We will call this 2x2 structure a matrix.
 
 To determine where any input vector ends up after a linear transformation, you can multiply the first coordinate of the vector with the first column of this matrix and the second coordinate with the second column. This is equivalent to the generic solution to L above.
 
-Even more generically, for any linear transformation performed on $\begin{bmatrix}x \\ y \\\end{bmatrix}$ with transformed basis vectors $\begin{bmatrix}a \\ c \\\end{bmatrix}$ and $\begin{bmatrix}b \\ d \\\end{bmatrix}$:
+Even more generically, for any linear transformation performed on $\begin{bmatrix}x \\\ y \\\ \end{bmatrix}$ with transformed basis vectors $\begin{bmatrix}a \\\ c \\\ \end{bmatrix}$ and $\begin{bmatrix}b \\\ d \\\ \end{bmatrix}$:
 
 $$\begin{bmatrix} a & b \\\ c & d \\\ \end{bmatrix}\begin{bmatrix}x \\\ y \\\ \end{bmatrix} = x\begin{bmatrix}a \\\ c \\\ \end{bmatrix} + y\begin{bmatrix}b \\\ d \\\ \end{bmatrix} = \begin{bmatrix}ax + by \\\ cx + dy \\\ \end{bmatrix}$$
 
@@ -122,6 +122,7 @@ Matrix addition: Since the columns of the matrix are each a vector, matrix addit
 $$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} + \begin{bmatrix}v & d \\\ w & e \\\ \end{bmatrix} = \begin{bmatrix}x + v & a + d \\\ y + w & b + e \\\ \end{bmatrix}.$$
 
 Or more formally, for an m x n matrix:
+
 $$(A + B)_{i,j} = A_{i,j} + B_{i,j} \\ 1 \le i \le m,\\ 1 \le j \le n$$
 
 Matrix subtraction: Just like vector subtraction from the previous session, we simply negate the entries of the second matrix and perform matrix addition.
@@ -129,6 +130,7 @@ Matrix subtraction: Just like vector subtraction from the previous session, we s
 $$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} - \begin{bmatrix}v & d \\\ w & e \\\ \end{bmatrix} = \begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} + \begin{bmatrix}-v & -d \\\ -w & -e \\\ \end{bmatrix} = \begin{bmatrix}x - v & a - d \\\ y - w & b - e \\\ \end{bmatrix}.$$
 
 Or for an m x n matrix:
+
 $$(A - B)_{i,j} = A_{i,j} - B_{i,j} \\\ 1 \le i \le m,\\\ 1 \le j \le n$$
 
 Matrix-scalar multiplication: Exactly the same as scalar-vector multiplication.
