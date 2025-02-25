@@ -168,9 +168,9 @@ $$6) (c + d)A = cA + dA $$
 
 ## Exercise Solutions:
 
-1) $\begin{bmatrix} -1 & 2 \\ 0 & 1 \\\end{bmatrix} + \begin{bmatrix} 1 & 3 \\ -1 & 2 \\\end{bmatrix} = \begin{bmatrix} -1 + 1 & 2 + 3 \\ 0 + (-1) & 1 + 2 \\\end{bmatrix} = \begin{bmatrix} 0 & 5 \\ -1 & 3 \\\end{bmatrix}$
+1) $\begin{bmatrix} -1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} + \begin{bmatrix} 1 & 3 \\\ -1 & 2 \\\ \end{bmatrix} = \begin{bmatrix} -1 + 1 & 2 + 3 \\\ 0 + (-1) & 1 + 2 \\\ \end{bmatrix} = \begin{bmatrix} 0 & 5 \\\ -1 & 3 \\\ \end{bmatrix}$
 
-2) $$\begin{bmatrix} 0 & 1 & -2 \\ 1 & 2 & 3 \\\end{bmatrix} + \begin{bmatrix} 2 & 3 & -1\\ -3 & 2 & 0\\\end{bmatrix} = \begin{bmatrix} 0+2 & 1+3 & -2+(-1)\\ 1+(-3) & 2+2 & 3+0\\\end{bmatrix} = \begin{bmatrix} 2 & 4 & -3\\ -2 & 4 & 3\\\end{bmatrix}$$
+2) $$\begin{bmatrix} 0 & 1 & -2 \\\ 1 & 2 & 3 \\\ \end{bmatrix} + \begin{bmatrix} 2 & 3 & -1 \\\ -3 & 2 & 0\\\ \end{bmatrix} = \begin{bmatrix} 0+2 & 1+3 & -2+(-1) \\\ 1+(-3) & 2+2 & 3+0 \\\ \end{bmatrix} = \begin{bmatrix} 2 & 4 & -3 \\\ -2 & 4 & 3 \\\ \end{bmatrix}$$
 
 3) $$\begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\end{bmatrix} - \begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\end{bmatrix} = \begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\end{bmatrix} + \begin{bmatrix} -(-3) & -4 \\ -5 & -2.5 \\\end{bmatrix} = \\ \begin{bmatrix} -3+3 & 4-4 \\ -5+5 & 2.5-2.5 \\\end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \\\end{bmatrix}$$
 
