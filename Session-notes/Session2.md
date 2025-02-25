@@ -35,8 +35,8 @@ Every vector in 2-dimensions can be written as a linear combination of these two
 For example: 
 
 $$\vec{x} = \begin{bmatrix}7 \\\ 3 \\\ \end{bmatrix} \\\
-$$= 7\begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix} + 3\begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix} \\\
-$$= 7\widehat{\imath} + 3\widehat{\jmath}\\\$$
+= 7\begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix} + 3\begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix} \\\
+= 7\widehat{\imath} + 3\widehat{\jmath}\\\$$
 
 It turns out that any linear transformation can be described simply by looking at where these basis vectors end up afterwards.
 
@@ -46,14 +46,14 @@ Say we have a linear transformation L.
 
 L is applied to $R^2$ and it changes space such that the unit vectors, $\widehat{\imath}$ and $\widehat{\jmath}$ now end up at:
 
-$$new \ \widehat{\imath} = \begin{bmatrix}-1 \\ 2 \\\end{bmatrix},$$
-$$new \ \widehat{\jmath} = \begin{bmatrix}3 \\ 0 \\\end{bmatrix}.$$
+$$new \ \widehat{\imath} = \begin{bmatrix}-1 \\\ 2 \\\ \end{bmatrix},$$
+$$new \ \widehat{\jmath} = \begin{bmatrix}3 \\\ 0 \\\ \end{bmatrix}.$$
 
 If we take $\vec{x}$ from the previous example and ask "where does $\vec{x}$ end up after applying L?", we can write $new \ \vec{x}$ as the same linear combination of its new basis vectors:
 
-$$new \ \vec{x} = 7\begin{bmatrix}-1 \\ 2 \\\end{bmatrix} + 3\begin{bmatrix}3 \\ 0 \\\end{bmatrix}$$
-$$=\begin{bmatrix}-7 \\ 14 \\\end{bmatrix} + \begin{bmatrix}9 \\ 0 \\\end{bmatrix}$$
-$$=\begin{bmatrix}2 \\ 14 \\\end{bmatrix}.$$
+$$new \ \vec{x} = 7\begin{bmatrix}-1 \\\ 2 \\\ \end{bmatrix} + 3\begin{bmatrix}3 \\\ 0 \\\ \end{bmatrix}$$
+$$=\begin{bmatrix}-7 \\\ 14 \\\ \end{bmatrix} + \begin{bmatrix}9 \\\ 0 \\\ \end{bmatrix}$$
+$$=\begin{bmatrix}2 \\\ 14 \\\ \end{bmatrix}.$$
 
 Important to note:
 $$\vec{x} = x_1 (\widehat{\imath}) + x_2(\widehat{\jmath})$$
