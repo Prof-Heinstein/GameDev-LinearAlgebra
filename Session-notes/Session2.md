@@ -61,7 +61,7 @@ $$new \ \vec{x} = x_1 (new \ \widehat{\imath}) + x_2(new \ \widehat{\jmath})$$
 
 Generally speaking, if we take the linear transformation L:
 
-$$L:= \begin{bmatrix}x \\ y \\\end{bmatrix} \implies x\begin{bmatrix}-1 \\ 2 \\\end{bmatrix} + y\begin{bmatrix}3 \\ 0 \\\end{bmatrix} = \begin{bmatrix}1x + 3y \\ 2x + 0y \\\end{bmatrix}$$
+$$L:= \begin{bmatrix}x \\\ y \\\ \end{bmatrix} \implies x\begin{bmatrix}-1 \\\ 2 \\\ \end{bmatrix} + y\begin{bmatrix}3 \\\ 0 \\\ \end{bmatrix} = \begin{bmatrix}1x + 3y \\\ 2x + 0y \\\ \end{bmatrix}$$
 
 We can get the output vector for any given input vector.
 
@@ -71,7 +71,7 @@ Notice how the generic solution to the transformation above is FULLY described b
 
 Since we only need those four numbers, let's throw them together into one single structure to represent the linear transformation L.
 
-$$\begin{bmatrix}-1 \\ 2 \\\end{bmatrix} and \begin{bmatrix}3 \\ 0 \\\end{bmatrix} \implies \begin{bmatrix}-1 & 3 \\ 2 & 0 \\\end{bmatrix}$$
+$$\begin{bmatrix}-1 \\\ 2 \\\ \end{bmatrix} and \begin{bmatrix}3 \\\ 0 \\\ \end{bmatrix} \implies \begin{bmatrix}-1 & 3 \\\ 2 & 0 \\\ \end{bmatrix}$$
 
 Each of the columns of this structure contain the coordinates of our new basis vectors. Column 1 is new $\widehat{\imath}$, and column 2 is new $\widehat{\jmath}$.
 
@@ -81,7 +81,7 @@ To determine where any input vector ends up after a linear transformation, you c
 
 Even more generically, for any linear transformation performed on $\begin{bmatrix}x \\ y \\\end{bmatrix}$ with transformed basis vectors $\begin{bmatrix}a \\ c \\\end{bmatrix}$ and $\begin{bmatrix}b \\ d \\\end{bmatrix}$:
 
-$$\begin{bmatrix} a & b \\ c & d \\\end{bmatrix}\begin{bmatrix}x \\ y \\\end{bmatrix} = x\begin{bmatrix}a \\ c \\\end{bmatrix} + y\begin{bmatrix}b \\ d \\\end{bmatrix} = \begin{bmatrix}ax + by \\ cx + dy \\\end{bmatrix}$$
+$$\begin{bmatrix} a & b \\\ c & d \\\ \end{bmatrix}\begin{bmatrix}x \\\ y \\\ \end{bmatrix} = x\begin{bmatrix}a \\\ c \\\ \end{bmatrix} + y\begin{bmatrix}b \\\ d \\\ \end{bmatrix} = \begin{bmatrix}ax + by \\\ cx + dy \\\ \end{bmatrix}$$
 
 Next, we leave out the middle part of the above statement (the part containing the intuitive understanding) and force students to simply memorise the formula - if we're the education department, that is.
 
@@ -93,23 +93,23 @@ So far, we've only dealt directly with matrices in 2-dimensions, but most of wha
 
 #### Example 1: $90\degree$ rotation counterclockwise.
 
-$$\widehat{\imath} = \begin{bmatrix}1 \\ 0 \\\end{bmatrix}, \
-\widehat{\jmath} = \begin{bmatrix}0 \\ 1 \\\end{bmatrix}.$$
+$$\widehat{\imath} = \begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix}, \\
+\widehat{\jmath} = \begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix}.$$
 
-$$new \ \widehat{\imath} = \begin{bmatrix}0 \\ 1 \\\end{bmatrix}, \
-new \ \widehat{\jmath} = \begin{bmatrix}-1 \\ 0 \\\end{bmatrix}.$$
+$$new \ \widehat{\imath} = \begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix}, \\
+new \ \widehat{\jmath} = \begin{bmatrix}-1 \\\ 0 \\\ \end{bmatrix}.$$
 
-$$\begin{bmatrix}0 & -1 \\ 1 & 0 \\\end{bmatrix}\begin{bmatrix}x \\ y \\\end{bmatrix} = x\begin{bmatrix}0 \\ 1 \\\end{bmatrix} + y\begin{bmatrix}-1 \\ 0 \\\end{bmatrix} = \begin{bmatrix}-y \\ x \\\end{bmatrix}.$$
+$$\begin{bmatrix}0 & -1 \\\ 1 & 0 \\\ \end{bmatrix}\begin{bmatrix}x \\\ y \\\ \end{bmatrix} = x\begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix} + y\begin{bmatrix}-1 \\\ 0 \\\ \end{bmatrix} = \begin{bmatrix}-y \\\ x \\\ \end{bmatrix}.$$
 
 #### Example 2: Shear ($\widehat{\imath}$ is fixed, $\widehat{\jmath}$ moves).
 
-$$\widehat{\imath} = \begin{bmatrix}1 \\ 0 \\\end{bmatrix}, \
-\widehat{\jmath} = \begin{bmatrix}0 \\ 1 \\\end{bmatrix}.$$
+$$\widehat{\imath} = \begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix}, \\
+\widehat{\jmath} = \begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix}.$$
 
-$$new \ \widehat{\imath} = \begin{bmatrix}1 \\ 0 \\\end{bmatrix}, \
-new \ \widehat{\jmath} = \begin{bmatrix}1 \\ 1 \\\end{bmatrix}.$$
+$$new \ \widehat{\imath} = \begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix}, \\
+new \ \widehat{\jmath} = \begin{bmatrix}1 \\\ 1 \\\ \end{bmatrix}.$$
 
-$$\begin{bmatrix}1 & 1 \\ 0 & 1 \\\end{bmatrix}\begin{bmatrix}x \\ y \\\end{bmatrix} = x\begin{bmatrix}1 \\ 0 \\\end{bmatrix} + y\begin{bmatrix}1 \\ 1 \\\end{bmatrix} = \begin{bmatrix}x + y \\ y \\\end{bmatrix}.$$
+$$\begin{bmatrix}1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix}x \\\ y \\\ \end{bmatrix} = x\begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix} + y\begin{bmatrix}1 \\\ 1 \\\ \end{bmatrix} = \begin{bmatrix}x + y \\\ y \\\ \end{bmatrix}.$$
 
 This type of movement is also called "transvection".
 
@@ -119,34 +119,34 @@ Now that we know what a matrix is made of, we can easily derive basic operations
 
 Matrix addition: Since the columns of the matrix are each a vector, matrix addition works just like adding two vectors together, but per column.
 
-$$\begin{bmatrix}x & a \\ y & b \\\end{bmatrix} + \begin{bmatrix}v & d \\ w & e \\\end{bmatrix} = \begin{bmatrix}x + v & a + d \\ y + w & b + e \\\end{bmatrix}.$$
+$$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} + \begin{bmatrix}v & d \\\ w & e \\\ \end{bmatrix} = \begin{bmatrix}x + v & a + d \\\ y + w & b + e \\\ \end{bmatrix}.$$
 
 Or more formally, for an m x n matrix:
 $$(A + B)_{i,j} = A_{i,j} + B_{i,j} \\ 1 \le i \le m,\\ 1 \le j \le n$$
 
 Matrix subtraction: Just like vector subtraction from the previous session, we simply negate the entries of the second matrix and perform matrix addition.
 
-$$\begin{bmatrix}x & a \\ y & b \\\end{bmatrix} - \begin{bmatrix}v & d \\ w & e \\\end{bmatrix} = \begin{bmatrix}x & a \\ y & b \\\end{bmatrix} + \begin{bmatrix}-v & -d \\ -w & -e \\\end{bmatrix} = \begin{bmatrix}x - v & a - d \\ y - w & b - e \\\end{bmatrix}.$$
+$$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} - \begin{bmatrix}v & d \\\ w & e \\\ \end{bmatrix} = \begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} + \begin{bmatrix}-v & -d \\\ -w & -e \\\ \end{bmatrix} = \begin{bmatrix}x - v & a - d \\\ y - w & b - e \\\ \end{bmatrix}.$$
 
 Or for an m x n matrix:
-$$(A - B)_{i,j} = A_{i,j} - B_{i,j} \\ 1 \le i \le m,\\ 1 \le j \le n$$
+$$(A - B)_{i,j} = A_{i,j} - B_{i,j} \\\ 1 \le i \le m,\\\ 1 \le j \le n$$
 
 Matrix-scalar multiplication: Exactly the same as scalar-vector multiplication.
 
-$$c\begin{bmatrix}x & a \\ y & b \\\end{bmatrix} = \begin{bmatrix}cx & ca \\ cy & cb \\\end{bmatrix}.$$
+$$c\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} = \begin{bmatrix}cx & ca \\\ cy & cb \\\ \end{bmatrix}.$$
 
-$$(\lambda \mathbf {A} )_{ij}=\lambda \left(\mathbf {A} \right)_{ij} \\ 1 \le i \le m,\\ 1 \le j \le n\$$
+$$(\lambda \mathbf {A} )_{ij}=\lambda \left(\mathbf {A} \right)_{ij} \\\ 1 \le i \le m,\\\ 1 \le j \le n\$$
 
 ### Exercise:
-1) $\begin{bmatrix} -1 & 2 \\ 0 & 1 \\\end{bmatrix} + \begin{bmatrix} 1 & 3 \\ -1 & 2 \\\end{bmatrix}$
+1) $\begin{bmatrix} -1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} + \begin{bmatrix} 1 & 3 \\\ -1 & 2 \\\ \end{bmatrix}$
 
-2) $\begin{bmatrix} 0 & 1 & -2 \\ 1 & 2 & 3 \\\end{bmatrix} + \begin{bmatrix} 2 & 3 & -1\\ -3 & 2 & 0\\\end{bmatrix}$
+2) $\begin{bmatrix} 0 & 1 & -2 \\\ 1 & 2 & 3 \\\ \end{bmatrix} + \begin{bmatrix} 2 & 3 & -1\\\ -3 & 2 & 0\\\ \end{bmatrix}$
 
-3) $\begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\end{bmatrix} - \begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\end{bmatrix}$
+3) $\begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\ \end{bmatrix} - \begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\ \end{bmatrix}$
 
 4) For the matrices A and B:
 
-$A = \begin{bmatrix}1 & 2 & 4 \\ -3 & 0 & -1 \\ 2 & 1 & 2 \\\end{bmatrix}$ and $B = \begin{bmatrix}2 & 0 & 0 \\ 1 & -4 & 3 \\ -1 & 3 & 2 \\\end{bmatrix}$
+$A = \begin{bmatrix}1 & 2 & 4 \\\ -3 & 0 & -1 \\\ 2 & 1 & 2 \\\ \end{bmatrix}$ and $B = \begin{bmatrix}2 & 0 & 0 \\\ 1 & -4 & 3 \\\ -1 & 3 & 2 \\\ \end{bmatrix}$
 
 a) Find 3A
 
