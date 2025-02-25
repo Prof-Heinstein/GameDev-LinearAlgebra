@@ -33,6 +33,7 @@ $$\widehat{\jmath} = \begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix}.$$
 Every vector in 2-dimensions can be written as a linear combination of these two vectors.
 
 For example: 
+
 $$\vec{x} = \begin{bmatrix}7 \\\ 3 \\\ \end{bmatrix} \\\
 $$= 7\begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix} + 3\begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix} \\\
 $$= 7\widehat{\imath} + 3\widehat{\jmath}\\\$$
