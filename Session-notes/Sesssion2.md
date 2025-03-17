@@ -123,7 +123,7 @@ $$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} + \begin{bmatrix}v & d \\\ w 
 
 Or more formally, for an m x n matrix:
 
-$(A + B)_{i,j} = A_{i,j} + B_{i,j} \\\ 1 \le i \le m,\\\ 1 \le j \le n$
+$$(A + B)_{i,j} = A_{i,j} + B_{i,j} \\\ 1 \le i \le m,\\\ 1 \le j \le n$$
 
 Matrix subtraction: Just like vector subtraction from the previous session, we simply negate the entries of the second matrix and perform matrix addition.
 
