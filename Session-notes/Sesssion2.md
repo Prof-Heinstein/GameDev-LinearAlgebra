@@ -141,7 +141,7 @@ Matrix-scalar multiplication: Exactly the same as scalar-vector multiplication.
 
 $$c\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} = \begin{bmatrix}cx & ca \\\ cy & cb \\\ \end{bmatrix}.$$
 
-$$(\lambda \mathbf {A} )_{ij}=\lambda \left(\mathbf {A} \right)_{ij} \\\ 1 \le i \le m,\\\ 1 \le j \le n\$$
+$$(\lambda \mathbf {A} )_{ij}=\lambda \left(\mathbf {A} \right)_{ij} \\\ 1 \le i \le m,\\\ 1 \le j \le n\.$$
 
 ### Exercise:
 $$1) \begin{bmatrix} -1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} + \begin{bmatrix} 1 & 3 \\\ -1 & 2 \\\ \end{bmatrix}$$
