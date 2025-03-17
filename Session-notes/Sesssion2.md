@@ -131,7 +131,13 @@ $$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} - \begin{bmatrix}v & d \\\ w 
 
 Or for an m x n matrix:
 
-$(A - B)_{i,j} = A_{i,j} - B_{i,j} \\\ 1 \le i \le m,\\\ 1 \le j \le n$
+$$
+\begin{aligned}
+(A - B)_{i,j} &= A_{i,j} - B_{i,j} \\
+1 &\le i \le m, \\
+1 &\le j \le n
+\end{aligned}
+$$
 
 Matrix-scalar multiplication: Exactly the same as scalar-vector multiplication.
 
@@ -174,7 +180,7 @@ $$2) \begin{bmatrix} 0 & 1 & -2 \\\ 1 & 2 & 3 \\\ \end{bmatrix} + \begin{bmatrix
 
 $$3) \begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\\ \end{bmatrix} - \begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\\ \end{bmatrix} = \begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\\ \end{bmatrix} + \begin{bmatrix} -(-3) & -4 \\\ -5 & -2.5 \\\\ \end{bmatrix} = \\\ \begin{bmatrix} -3+3 & 4-4 \\\ -5+5 & 2.5-2.5 \\\\ \end{bmatrix} = \begin{bmatrix} 0 & 0 \\\ 0 & 0 \\\\ \end{bmatrix}$$
 
-$$NOTE: \\ This \\ is \\ the \\ 2x2 \\ zero \\ matrix, \\ often \\ denoted \\ as \\ $O_{2 \times 2}$$
+$$NOTE: \\ This \\ is \\ the \\ 2x2 \\ zero \\ matrix, \\ often \\ denoted \\ as \\ O_{2 \times 2}$$
 
 $$4)$$
 $$a) 3A = 3\begin{bmatrix}1 & 2 & 4 \\\ -3 & 0 & -1 \\\ 2 & 1 & 2 \\\\ \end{bmatrix} = \begin{bmatrix} 3 & 6 & 12 \\\ -9 & 0 & -3 \\\ 6 & 3 & 6\\\\ \end{bmatrix}$$ 
