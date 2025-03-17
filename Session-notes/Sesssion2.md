@@ -34,7 +34,7 @@ Every vector in 2-dimensions can be written as a linear combination of these two
 
 For example: 
 
-$$\vec{x} = \begin{bmatrix}7 \\\ 3 \\\ \end{bmatrix} \\\ = 7\begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix} + 3\begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix} \\\ = 7\widehat{\imath} + 3\widehat{\jmath}\\\$$
+$$\vec{x} = \begin{bmatrix}7 \\\ 3 \\\ \end{bmatrix} \\\\ = 7 \begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix} + 3 \begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix} \\\\ = 7 \widehat{\imath} + 3\widehat{\jmath}\\\$$
 
 It turns out that any linear transformation can be described simply by looking at where these basis vectors end up afterwards.
 
