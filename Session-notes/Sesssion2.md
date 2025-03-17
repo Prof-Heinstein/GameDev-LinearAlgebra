@@ -131,11 +131,11 @@ $$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} - \begin{bmatrix}v & d \\\ w 
 
 Or for an m x n matrix:
 
-$$
-(A - B)_{i,j} = A_{i,j} - B_{i,j} \\
-1 \le i \le m, \\
-1 \le j \le n
-$$
+$(A - B)_{i,j} = A_{i,j} - B_{i,j}$
+
+$1 \le i \le m$
+
+$1 \le j \le n$
 
 Matrix-scalar multiplication: Exactly the same as scalar-vector multiplication.
 
