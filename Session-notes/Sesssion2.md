@@ -27,8 +27,8 @@ Basis vectors are unit vectors that can span the entire vector space they occupy
 
 For example, in $R^2$, the basis vectors are $\widehat{\imath}$ and $\widehat{\jmath}$:
 
-$$\widehat{\imath} = \begin{bmatrix}1 \\\ 0 \\\\end{bmatrix},$$
-$$\widehat{\jmath} = \begin{bmatrix}0 \\\ 1 \\\\end{bmatrix}.$$
+$$\widehat{\imath} = \begin{bmatrix}1 \\\ 0 \\\ \end{bmatrix},$$
+$$\widehat{\jmath} = \begin{bmatrix}0 \\\ 1 \\\ \end{bmatrix}.$$
 
 Every vector in 2-dimensions can be written as a linear combination of these two vectors.
 
