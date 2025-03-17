@@ -172,15 +172,15 @@ $$1) \begin{bmatrix} -1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} + \begin{bmatrix} 1 & 3 
 
 $$2) \begin{bmatrix} 0 & 1 & -2 \\\ 1 & 2 & 3 \\\ \end{bmatrix} + \begin{bmatrix} 2 & 3 & -1 \\\ -3 & 2 & 0\\\ \end{bmatrix} = \begin{bmatrix} 0+2 & 1+3 & -2+(-1) \\\ 1+(-3) & 2+2 & 3+0 \\\ \end{bmatrix} = \begin{bmatrix} 2 & 4 & -3 \\\ -2 & 4 & 3 \\\ \end{bmatrix}$$
 
-$$3) \begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\ \end{bmatrix} - \begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\ \end{bmatrix} = \begin{bmatrix} -3 & 4 \\ 5 & 2.5 \\\ \end{bmatrix} + \begin{bmatrix} -(-3) & -4 \\ -5 & -2.5 \\\ \end{bmatrix} = \\ \begin{bmatrix} -3+3 & 4-4 \\ -5+5 & 2.5-2.5 \\\ \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \\\ \end{bmatrix}$$
+$$3) \begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\\ \end{bmatrix} - \begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\\ \end{bmatrix} = \begin{bmatrix} -3 & 4 \\\ 5 & 2.5 \\\\ \end{bmatrix} + \begin{bmatrix} -(-3) & -4 \\\ -5 & -2.5 \\\\ \end{bmatrix} = \\\ \begin{bmatrix} -3+3 & 4-4 \\\ -5+5 & 2.5-2.5 \\\\ \end{bmatrix} = \begin{bmatrix} 0 & 0 \\\ 0 & 0 \\\\ \end{bmatrix}$$
 
 NOTE: This is the 2x2 zero matrix, often denoted as $O_{2 \times 2}$
 
-4) 
-$$a) 3A = 3\begin{bmatrix}1 & 2 & 4 \\ -3 & 0 & -1 \\ 2 & 1 & 2 \\\ \end{bmatrix} = \begin{bmatrix} 3 & 6 & 12 \\ -9 & 0 & -3 \\ 6 & 3 & 6\\\ \end{bmatrix}$$ 
+$$4)$$
+$$a) 3A = 3\begin{bmatrix}1 & 2 & 4 \\\ -3 & 0 & -1 \\\ 2 & 1 & 2 \\\\ \end{bmatrix} = \begin{bmatrix} 3 & 6 & 12 \\\ -9 & 0 & -3 \\\ 6 & 3 & 6\\\\ \end{bmatrix}$$ 
 
-$$b) -B = -1\begin{bmatrix}2 & 0 & 0 \\ 1 & -4 & 3 \\ -1 & 3 & 2 \\\ \end{bmatrix} = \begin{bmatrix} -1(2) & -1(0) & -1(0) \\ -1(1) & -1(-4) & -1(3) \\ -1(-1) & -1(3) & -1(2)\\\ \end{bmatrix} = \begin{bmatrix} -2 & 0 & 0 \\ -1 & 4 & -3 \\ 1 & -3 & -2\\\ \end{bmatrix}$$ 
+$$b) -B = -1\begin{bmatrix}2 & 0 & 0 \\\ 1 & -4 & 3 \\\ -1 & 3 & 2 \\\\ \end{bmatrix} = \begin{bmatrix} -1(2) & -1(0) & -1(0) \\\ -1(1) & -1(-4) & -1(3) \\\ -1(-1) & -1(3) & -1(2)\\\\ \end{bmatrix} = \begin{bmatrix} -2 & 0 & 0 \\\ -1 & 4 & -3 \\\ 1 & -3 & -2\\\\ \end{bmatrix}$$ 
 
-$$c) 3A-B = \begin{bmatrix} 3 & 6 & 12 \\ -9 & 0 & -3 \\ 6 & 3 & 6\\\ \end{bmatrix} + \begin{bmatrix} -2 & 0 & 0 \\ -1 & 4 & -3 \\ 1 & -3 & -2\\\ \end{bmatrix} = \begin{bmatrix} 3 + (-2) & 6 + 0 & 12 + 0 \\ -9 + (-1) & 0 + 4 & -3 + (-3) \\ 6 + 1 & 3 + (-3) & 6 + (-2)\\\ \end{bmatrix} \\ = \begin{bmatrix} 1 & 6 & 12 \\ -10 & 4 & -6 \\ 7 & 0 & 4\\\ \end{bmatrix}$$
+$$c) 3A-B = \begin{bmatrix} 3 & 6 & 12 \\\ -9 & 0 & -3 \\\ 6 & 3 & 6\\\\ \end{bmatrix} + \begin{bmatrix} -2 & 0 & 0 \\\ -1 & 4 & -3 \\\ 1 & -3 & -2\\\\ \end{bmatrix} = \begin{bmatrix} 3 + (-2) & 6 + 0 & 12 + 0 \\\ -9 + (-1) & 0 + 4 & -3 + (-3) \\\ 6 + 1 & 3 + (-3) & 6 + (-2)\\\\ \end{bmatrix} \\\ = \begin{bmatrix} 1 & 6 & 12 \\\ -10 & 4 & -6 \\\ 7 & 0 & 4\\\\ \end{bmatrix}$$
 
   # END
