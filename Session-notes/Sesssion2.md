@@ -121,27 +121,13 @@ Matrix addition: Since the columns of the matrix are each a vector, matrix addit
 
 $$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} + \begin{bmatrix}v & d \\\ w & e \\\ \end{bmatrix} = \begin{bmatrix}x + v & a + d \\\ y + w & b + e \\\ \end{bmatrix}.$$
 
-Or more formally, for an m x n matrix:
-
-$$\\(A + B)_{i,j} = \\A_{i,j} + \\B_{i,j} \\\\ 1 \le i \le m,\\\\ 1 \le j \le n.$$
-
 Matrix subtraction: Just like vector subtraction from the previous session, we simply negate the entries of the second matrix and perform matrix addition.
 
 $$\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} - \begin{bmatrix}v & d \\\ w & e \\\ \end{bmatrix} = \begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} + \begin{bmatrix}-v & -d \\\ -w & -e \\\ \end{bmatrix} = \begin{bmatrix}x - v & a - d \\\ y - w & b - e \\\ \end{bmatrix}.$$
 
-Or for an m x n matrix:
-
-$(A - B)_{i,j} = A_{i,j} - B_{i,j}$
-
-$1 \le i \le m$
-
-$1 \le j \le n$
-
 Matrix-scalar multiplication: Exactly the same as scalar-vector multiplication.
 
 $$c\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} = \begin{bmatrix}cx & ca \\\ cy & cb \\\ \end{bmatrix}.$$
-
-$$(\lambda \mathbf {A} )_{ij}=\lambda \left(\mathbf {A} \right)_{ij} \\\ 1 \le i \le m,\\\ 1 \le j \le n\.$$
 
 ### Exercise:
 $$1) \begin{bmatrix} -1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} + \begin{bmatrix} 1 & 3 \\\ -1 & 2 \\\ \end{bmatrix}$$
