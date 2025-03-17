@@ -140,7 +140,7 @@ $$c\begin{bmatrix}x & a \\\ y & b \\\ \end{bmatrix} = \begin{bmatrix}cx & ca \\\
 $$(\lambda \mathbf {A} )_{ij}=\lambda \left(\mathbf {A} \right)_{ij} \\\ 1 \le i \le m,\\\ 1 \le j \le n\$$
 
 ### Exercise:
-1) $\begin{bmatrix} -1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} + \begin{bmatrix} 1 & 3 \\\ -1 & 2 \\\ \end{bmatrix}$
+$$1) \begin{bmatrix} -1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} + \begin{bmatrix} 1 & 3 \\\ -1 & 2 \\\ \end{bmatrix}$$
 
 2) $\begin{bmatrix} 0 & 1 & -2 \\\ 1 & 2 & 3 \\\ \end{bmatrix} + \begin{bmatrix} 2 & 3 & -1\\\ -3 & 2 & 0\\\ \end{bmatrix}$
 
