@@ -79,7 +79,7 @@ To determine where any input vector ends up after a linear transformation, you c
 
 Even more generically, for any linear transformation performed on 
 
-$\begin{bmatrix}x \\\ y \\\ \end{bmatrix}$ with transformed basis vectors $\begin{bmatrix}a \\\ c \\\ \end{bmatrix}$ and $\begin{bmatrix}b \\\ d \\\ \end{bmatrix}:$
+$$\begin{bmatrix}x \\\ y \\\ \end{bmatrix}$ with transformed basis vectors $\begin{bmatrix}a \\\ c \\\ \end{bmatrix}$ and $\begin{bmatrix}b \\\ d \\\ \end{bmatrix}:$$
 
 $$\begin{bmatrix} a & b \\\ c & d \\\ \end{bmatrix}\begin{bmatrix}x \\\ y \\\ \end{bmatrix} = x\begin{bmatrix}a \\\ c \\\ \end{bmatrix} + y\begin{bmatrix}b \\\ d \\\ \end{bmatrix} = \begin{bmatrix}ax + by \\\ cx + dy \\\ \end{bmatrix}$$
 
