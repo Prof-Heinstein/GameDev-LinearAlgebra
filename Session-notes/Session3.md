@@ -28,7 +28,7 @@ $L_1$ is a stretch of the x-axis and $L_2$ is a shear.
 $$L_1 = \begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}.$$
 $$L_2 = \begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}.$$
 
-Applying $L_1 \ and \ then \ L_2 \ to \ a \ vector \vec{v} = \begin{bmatrix} x \\\ y \\\ \end{bmatrix}$:
+$Applying \ L_1 \ and \ then \ L_2 \ to \ a \ vector \vec{v} = \begin{bmatrix} x \\\ y \\\ \end{bmatrix}:$
 
 $$\begin{bmatrix} 1 && 1 \\\ 0 & 1 \\\ \end{bmatrix}\Bigg(\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} x \\\ y \\\ \end{bmatrix}\Bigg)$$
 
