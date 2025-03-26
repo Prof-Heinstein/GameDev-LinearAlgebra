@@ -100,7 +100,7 @@ So $M_1M_2 \ne M_2M_1$.
 
 ### Example
 
-$$Let \ A \ = \ \begin{bmatrix} 2 & 3 \\\ 1 & 0 \\\ \end{bmatrix}$ and B = $\begin{bmatrix} 1 & 2 \\\ 0 & 1 \\\ \end{bmatrix}.$$ 
+$$Let \ A \ = \ \begin{bmatrix} 2 & 3 \\\ 1 & 0 \\\ \end{bmatrix} and B = \begin{bmatrix} 1 & 2 \\\ 0 & 1 \\\ \end{bmatrix}.$$ 
 
 Find AB.
 
