@@ -63,7 +63,7 @@ $$\begin{rcases}\begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix}
 
 Putting those two resultant vectors into one structure, just like we did before, gives us the matrix that's equivalent to the composition of the two linear transformations.
 
-Generically, 
+## Generic Matrix Multiplication 
 
 $$\begin{bmatrix} a & b \\\ c & d \\\ \end{bmatrix}\begin{bmatrix} e & f \\\ g & h \\\ \end{bmatrix} = $$
 
@@ -74,21 +74,25 @@ Yet again, this is usually taught as something that should just be memorised.
 
 But we've been able to derive it using the intuition we've built up about vectors and matrices.
 
+## Commutativity of Matrix Multiplication
+
 Question: Does the order of matrix multiplication matter? In other words, is $M_1M_2 = M_2M_1$?
 
 Another way to think about this question: can we think of two linear transformations that, after applying one after another, DOESN'T end up the same?
 
-Example: Let's consider a shear, then a 90 degree rotation.
+### Example:
+
+Let's consider a shear, then a 90 degree rotation.
 
 $$Shear: \begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}, \\\\ \ Rotation: \begin{bmatrix} 0 & -1 \\\ 1 & 0 \\\ \end{bmatrix}.$$
 
-### First shear, then rotate
+#### First shear, then rotate
 
 Note that we read the order of the linear transformations from right to left, so the shear will be on the right.
 
 $$\begin{bmatrix} 0 & -1 \\\ 1 & 0 \\\ \end{bmatrix} \begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix} = \begin{bmatrix} 0(1) + -1(0) & 0(1) + -1(1) \\\ 1(1) + 0(0) & 1(1) + 0(1) \\\ \end{bmatrix} = \begin{bmatrix} 0 & -1 \\\ 1 & 1 \\\ \end{bmatrix}.$$
 
-### First rotate, then shear
+#### First rotate, then shear
 
 $$\begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} 0 & -1 \\\ 1 & 0 \\\ \end{bmatrix}  = \begin{bmatrix} 1(0) + 1(1) & 1(-1) + 1(0) \\\ 0(0) + 1(1) & 0(-1) + 1(0) \\\ \end{bmatrix} = \begin{bmatrix} 1 & -1 \\\ 1 & 0 \\\ \end{bmatrix}.$$
 
@@ -96,7 +100,7 @@ $$\begin{bmatrix} 0 & -1 \\\ 1 & 1 \\\ \end{bmatrix} \ne \begin{bmatrix} 1 & -1 
 
 So $M_1M_2 \ne M_2M_1$. 
 
-### Example
+## Matrix Multiplication Example (calculation)
 
 $$Let \ A \ = \ \begin{bmatrix} 2 & 3 \\\ 1 & 0 \\\ \end{bmatrix} \ and \ B = \begin{bmatrix} 1 & 2 \\\ 0 & 1 \\\ \end{bmatrix}.$$ 
 
@@ -104,7 +108,7 @@ Find AB.
 
 $$\begin{bmatrix} 2 & 3 \\\ 1 & 0 \\\ \end{bmatrix}\begin{bmatrix} 1 & 2 \\\ 0 & 1 \\\ \end{bmatrix} = \begin{bmatrix} 2(1) + 3(0) & 2(2) + 3(1) \\\ 1(1) + 0(0) & 1(2) + 0(1) \\\ \end{bmatrix} = \begin{bmatrix} 2 & 7 \\\ 1 & 2 \\\ \end{bmatrix}.$$
 
-### Excercise
+## Excercise
 
 $$1) \ Let \ A = \begin{bmatrix} 3 & 4 \\\ -2 & 5 \\\ \end{bmatrix}, B = \begin{bmatrix} 1 & 0 \\\ 0 & 1 \\\ \end{bmatrix}. \ Find \ AB.$$
 
@@ -112,10 +116,12 @@ $$2) \ Let \ A = \begin{bmatrix} 2 & 3 & 4 \\\ 0 & 1 & -1 \\\ 2 & 0 & 1 \\\ \end
 $$A) \ Find \ AB. $$
 $$B) \ Find \ BA.$$          
 
-### Excercise Solutions
+## Excercise Solutions
 
 $$1) \ AB = \begin{bmatrix} 3 & 4 \\\ -2 & 5 \\\ \end{bmatrix}.$$
 
 $$2A) \ AB = \begin{bmatrix} 8 & 23 & 29 \\\ 5 & -1 & -4 \\\ -1 & 14 & 8 \\\ \end{bmatrix}.$$
 
 $$2B) \ BA = \begin{bmatrix} 4 & 6 & -4 \\\ 8 & 13 & 15 \\\ 6 & -1 & -2 \\\ \end{bmatrix}.$$
+
+# END
