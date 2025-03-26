@@ -53,8 +53,8 @@ $$\underleftarrow{f(g(h(x)))}$$
 
 Fortunately, we're developers, so we're used to this way of reading function calls.
 
-$$Computationally, looking at \begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix},
-we consider the matrix on the right as the basis vectors that they represent.$$
+$$Computationally, \ looking \ at \ \begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}, \
+we \ consider \ the \ matrix \ on \ the \ right \ as \ the \ basis \ vectors \ that \ they \ represent.$$
 
 $$new \ \widehat{i} = \begin{bmatrix} 3 \\\ 0 \\\ \end{bmatrix}, \ \widehat{j} = \begin{bmatrix} 0 \\\ 1 \\\ \end{bmatrix}.$$
 
@@ -100,7 +100,7 @@ So $M_1M_2 \ne M_2M_1$.
 
 ### Example
 
-Let A = $\begin{bmatrix} 2 & 3 \\\ 1 & 0 \\\ \end{bmatrix}$ and B = $\begin{bmatrix} 1 & 2 \\\ 0 & 1 \\\ \end{bmatrix}$. 
+$$Let \ A \ = \ \begin{bmatrix} 2 & 3 \\\ 1 & 0 \\\ \end{bmatrix}$ and B = $\begin{bmatrix} 1 & 2 \\\ 0 & 1 \\\ \end{bmatrix}.$$ 
 
 Find AB.
 
