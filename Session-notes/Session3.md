@@ -30,9 +30,9 @@ $$L_2 = \begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}.$$
 
 $$Applying \ L_1 \ and \ then \ L_2 \ to \ a \ vector \vec{v} = \begin{bmatrix} x \\\ y \\\ \end{bmatrix}:$$
 
-$$\begin{bmatrix} 1 && 1 \\\ 0 & 1 \\\ \end{bmatrix}\Bigg(\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} x \\\ y \\\ \end{bmatrix}\Bigg)$$
+$$\begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\Bigg(\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} x \\\ y \\\ \end{bmatrix}\Bigg)$$
 
-The composition of $L_1$ and $L_2$ can be defined by the matrix:
+$$The composition of L_1 and L_2 can be defined by the matrix:$$
 $$\begin{bmatrix} 3 & 1 \\\ 0 & 1 \\\ \end{bmatrix}.$$
 
 $$\begin{bmatrix} 1 && 1 \\\ 0 & 1 \\\ \end{bmatrix}\Bigg(\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} x \\\ y \\\ \end{bmatrix}\Bigg) \\ = \\ \begin{bmatrix} 3 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} x \\\ y \\\ \end{bmatrix}.$$
