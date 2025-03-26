@@ -76,7 +76,7 @@ But we've been able to derive it using the intuition we've built up about vector
 
 Question: Does the order of matrix multiplication matter? In other words, is $M_1M_2 = M_2M_1$?
 
-Another way to think about this question: can we think of two linear transformations that, after applying one after another, DOESN'T end up at the send spot?
+Another way to think about this question: can we think of two linear transformations that, after applying one after another, DOESN'T end up the same?
 
 Example: Let's consider a shear, then a 90 degree rotation.
 
