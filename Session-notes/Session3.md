@@ -37,9 +37,7 @@ $$\begin{bmatrix} 3 & 1 \\\ 0 & 1 \\\ \end{bmatrix}.$$
 
 $$\begin{bmatrix} 1 && 1 \\\ 0 & 1 \\\ \end{bmatrix}\Bigg(\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} x \\\ y \\\ \end{bmatrix}\Bigg) \\ = \\ \begin{bmatrix} 3 & 1 \\\ 0 & 1 \\\ \end{bmatrix}\begin{bmatrix} x \\\ y \\\ \end{bmatrix}.$$
 
-It follows that 
-
-$$\underbrace{\begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}}_{\text{shear}}\underbrace{\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}}_{\text{stretch/scale}} = \underbrace{\begin{bmatrix} 3 & 1 \\\ 0 & 1 \\\  \end{bmatrix}}_{\text{composition}}.$$
+$$It \ follows \ that \ \underbrace{\begin{bmatrix} 1 & 1 \\\ 0 & 1 \\\ \end{bmatrix}}_{\text{shear}}\underbrace{\begin{bmatrix} 3 & 0 \\\ 0 & 1 \\\ \end{bmatrix}}_{\text{stretch/scale}} = \underbrace{\begin{bmatrix} 3 & 1 \\\ 0 & 1 \\\  \end{bmatrix}}_{\text{composition}}.$$
 
 Therefore, we can actually define matrix multiplication.
 
